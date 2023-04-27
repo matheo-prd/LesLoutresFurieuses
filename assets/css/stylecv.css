@@ -1,0 +1,80 @@
+body {
+  font-family: "Times New Roman";
+}
+
+h1 {
+  color: gray;
+}
+
+h2 {
+  font-size: large;
+  text-decoration: underline;
+  text-underline-offset: 0.5em;
+}
+
+mark {
+  background-color: gray;
+  color: white;
+}
+
+strong {
+  color: rgb(114, 112, 112);
+}
+
+img {
+  width: 10em;
+  height: 10em;
+  border-radius: 10em;
+}
+
+div {
+  text-align: center;
+  padding-top: 1em;
+}
+
+a {
+  color: black;
+}
+
+span {
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.gauche {
+  background-color: rgb(219, 219, 219);
+  border: 50px 5em;
+  height: 60.25em;
+  width: 15em;
+  padding-left: 0.5em;
+  position: absolute;
+}
+
+.droite {
+  background-color: white;
+  width: 30em;
+  height: 60em;
+  padding-left: 1em;
+  position: absolute;
+  left: 16em;
+  border-width:1px;
+  border-style:solid;
+  border-color:rgb(219, 219, 219);
+}
+
+.logo {
+  height: 1em;
+  width: 1em;
+}
+
+/* Center the page */
+#page {
+  margin: 0 auto;
+  width: 80%;
+}
+
+/* Center the aside and section elements */
+aside, section {
+  display: inline-block;
+  vertical-align: top;
+}
+
