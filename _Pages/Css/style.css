@@ -1,0 +1,43 @@
+html{
+    font-family: "Gill Sans", sans-serif;
+}
+
+body{
+    margin-left: 0;
+    margin-top: 0;
+}
+
+main{
+    margin-left: 0;
+}
+
+table{
+    width: 100%;
+    border-spacing: 5px;
+    border-collapse: collapse;
+}
+
+header{
+	width:99.94vw;
+    color: #674d42;
+	font-size: 1.5em;
+}
+
+section{
+	width:9.94vw;
+    height:17em;
+}
+
+footer{
+	width:99.94vw;
+    text-align: center;
+}
+
+h1{
+    color: #ff4d00;
+}
+
+.pdp {
+    border-radius: 50%;
+    border: 3px solid black;
+}
